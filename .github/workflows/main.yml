@@ -1,9 +1,9 @@
 name: Image classification Model
 on: 
   push:
-    branches: ["main"]
+    branches: ["_aug_dev"]
   pull_request:
-    branches: ["main"]
+    branches: ["_aug_dev"]
 jobs:
   build:
     runs-on: ubuntu-latest
