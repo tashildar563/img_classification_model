@@ -1,0 +1,4 @@
+#req
+black
+pylint
+pytest
