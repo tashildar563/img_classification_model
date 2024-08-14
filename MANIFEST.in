@@ -1,0 +1,18 @@
+include *.txt
+include *.md
+include *.pkl
+recursive-include ./face_det_model *
+
+include face_det_model/datasets/titanic.csv
+include face_det_model/datasets/test.csv
+include face_det_model/trained_models/*.pkl
+include face_det_model/VERSION
+include face_det_model/config.yml
+
+include ./requirements/requirements.txt
+include ./requirements/test_requirements.txt
+exclude *.log
+exclude *.cfg
+
+recursive-exclude * __pycache__
+recursive-exclude * *.py[co]

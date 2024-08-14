@@ -1,4 +1,0 @@
-#req
-black
-pylint
-pytest
